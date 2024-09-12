@@ -61,8 +61,6 @@ def send_message(message):
 
     return res.json()
 
-# 23:06
-# https://www.youtube.com/watch?v=5u-PE-a9UYY&t=2272s
 
 
 if __name__ == '__main__':
