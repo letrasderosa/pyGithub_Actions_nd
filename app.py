@@ -43,7 +43,7 @@ def get_weather():
         inclusive="left"
     ), "temperature_2m": hourly_temperature_2m}
 
-    hourly_dataframe = pd.DataFrame(data=hourly_data)[:11]
+    hourly_dataframe = pd.DataFrame(data=hourly_data)[:10]
     return hourly_dataframe.to_string(index=None)
 
 
@@ -62,6 +62,7 @@ def send_message(message):
     return res.json()
 
 # Проверка связи с PyCharm
+
 
 if __name__ == '__main__':
     weather = get_weather()
