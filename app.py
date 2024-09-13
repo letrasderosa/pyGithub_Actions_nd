@@ -61,7 +61,7 @@ def send_message(message):
 
     return res.json()
 
-# Проверка связи с PyCharm
+# Проверка связи с PyCharm произведена
 
 
 if __name__ == '__main__':
