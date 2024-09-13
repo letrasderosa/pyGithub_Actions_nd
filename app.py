@@ -43,7 +43,7 @@ def get_weather():
         inclusive="left"
     ), "temperature_2m": hourly_temperature_2m}
 
-    hourly_dataframe = pd.DataFrame(data=hourly_data)[:11]
+    hourly_dataframe = pd.DataFrame(data=hourly_data)[:10]
     return hourly_dataframe.to_string(index=None)
 
 
@@ -60,6 +60,7 @@ def send_message(message):
     res.raise_for_status()
 
     return res.json()
+
 
 
 
