@@ -61,11 +61,6 @@ def send_message(message):
 
     return res.json()
 
-# Проверка связи с PyCharm произведена
-# 35:02
-# https://www.youtube.com/watch?v=5u-PE-a9UYY&t=2272s
-
-
 
 if __name__ == '__main__':
     weather = get_weather()
