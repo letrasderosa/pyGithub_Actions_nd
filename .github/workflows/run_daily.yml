@@ -1,9 +1,8 @@
 name: Daily Weather Bot
 # run-name: 
 on:
-
   schedule:
-    - cron: "2 * * * *"
+    - cron: "* * * * *"
 
 env:
   TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
