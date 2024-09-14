@@ -43,7 +43,7 @@ def get_weather():
         inclusive="left"
     ), "temperature_2m": hourly_temperature_2m}
 
-    hourly_dataframe = pd.DataFrame(data=hourly_data)[:5]
+    hourly_dataframe = pd.DataFrame(data=hourly_data)[:10]
     return hourly_dataframe.to_string(index=None)
 
 
