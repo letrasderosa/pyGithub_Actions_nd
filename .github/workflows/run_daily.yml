@@ -2,7 +2,7 @@ name: Daily Weather Bot
 # run-name: 
 on: 
   push:
-  
+
 jobs:
   Daily-Run:
     runs-on: ubuntu-latest
